@@ -16,8 +16,8 @@ def load_settings():
             settings = json.load(file)
     except (FileNotFoundError, json.JSONDecodeError):
         settings = {
-            "token": "YOUR_BOT_API_KEY",
-            "admins": [""],
+            "token": "8371672396:AAFAVqP2zruJp1_WkDDYQCsr5Oehit3cMPk",
+            "admins": ["7908573959"],
             "ban_words": [],
             "bot_active": True,
             "check_message_active": "Ебашу на благо кого-то! ",
@@ -280,3 +280,4 @@ def send_chat_statistics(chat_id):
         bot.send_message(chat_id, f"Ошибка при получении статистики: {e}")
 
 bot.polling()
+
