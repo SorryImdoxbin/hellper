@@ -1,0 +1,11 @@
+{
+    "token": "8371672396:AAFAVqP2zruJp1_WkDDYQCsr5Oehit3cMPk",
+    "admins": [
+        "7908573959"
+    ],
+    "ban_words": [],
+    "bot_active": true,
+    "check_message_active": "Ебашу на благо кого-то! ",
+    "check_message_inactive": "Чилю",
+    "match_threshold": 0.65
+}
